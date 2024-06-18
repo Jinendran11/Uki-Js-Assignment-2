@@ -19,7 +19,9 @@ function groupByType(transactions) {
 }
 
 console.log(groupByType(transactions));
-// Output: { deposit: [{ type: "deposit", amount: 100 }, { type: "deposit", amount: 200 }], withdrawal: [{ type: "withdrawal", amount: 50 }, { type: "withdrawal", amount: 30 }] }
+
+// Output: { deposit: [{ type: "deposit", amount: 100 }, { type: "deposit", amount: 200 }],
+// withdrawal: [{ type: "withdrawal", amount: 50 }, { type: "withdrawal", amount: 30 }] }
 
 //2
 
@@ -36,9 +38,11 @@ function filterEmployees(employees, ageLimit) {
 }
 
 console.log(filterEmployees(employees, ageLimit));
+
 // Output: [{ name: "Alice", age: 25 }, { name: "Charlie", age: 30 }]
 
 //3
+
 let classes = [
     ["Alice", "Bob", "Charlie"],
     ["David", "Alice", "Eve"],
@@ -145,6 +149,7 @@ function countOccurrences(arr) {
 
 let strings = ["apple", "banana", "apple", "orange", "banana", "apple"];
 console.log(countOccurrences(strings));
+
 // Output: Map { 'apple' => 3, 'banana' => 2, 'orange' => 1 }
 
 //10
@@ -165,6 +170,7 @@ function mapEmployeeIdsToNames(employes) {
 
 let employeeMap = mapEmployeeIdsToNames(employes);
 console.log(employeeMap);
+
 // Output: Map { 1 => 'Alice', 2 => 'Bob', 3 => 'Charlie' }
 
 //11
@@ -229,11 +235,11 @@ function union(...arrays) {
     }
     return [...resultSet];
 }
-
 let arr1 = [1, 2, 3];
 let arr2 = [3, 4, 5];
 let arr3 = [5, 6, 7];
 console.log(union(arr1, arr2, arr3));
+
 // Output: [1, 2, 3, 4, 5, 6, 7]
 
 //15
